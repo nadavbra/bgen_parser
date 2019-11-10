@@ -11,7 +11,7 @@ from Cython.Distutils import build_ext
 BGENIX_DIR_ENV_VARIABLE_NAME = 'BGENIX_DIR'
 
 if BGENIX_DIR_ENV_VARIABLE_NAME in os.environ:
-    bgenix_dir = os.getenv(BGENIX_DIR_ENV_VARIABLE_NAME)
+    bgenix_dir = os.path.expanduser(os.getenv(BGENIX_DIR_ENV_VARIABLE_NAME))
 else:
     raise Exception('You must define an environment variable %s specifying where bgenix is installed.' % BGENIX_DIR_ENV_VARIABLE_NAME)
     
