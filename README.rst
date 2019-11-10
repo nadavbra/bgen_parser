@@ -19,3 +19,4 @@ See: https://bitbucket.org/gavinband/bgen
 
 BGENIX_DIR = '/cs/phd/nadavb/third_party/bgenix'
 
+setenv BGENIX_DIR /cs/phd/nadavb/third_party/bgenix
