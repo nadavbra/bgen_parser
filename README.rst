@@ -32,6 +32,13 @@ For example, to parse the imputed genotypes of the UK Biobank on chromosome 14:
 Installation
 ===============
 
+Python dependencies
+-----------------
+
+* cython
+* numpy
+* pandas
+
 Step 1: Install bgenix
 -----------------
 
