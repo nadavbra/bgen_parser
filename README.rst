@@ -9,7 +9,7 @@ The main motivation for developing this package was that, at the time, I couldn'
 Usage
 ===============
 
-For example, to parse the imputated genotypes of the UK Biobank on chromosome 14:
+For example, to parse the imputed genotypes of the UK Biobank on chromosome 14:
 
 .. code-block:: python
 
