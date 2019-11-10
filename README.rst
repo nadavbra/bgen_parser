@@ -3,7 +3,8 @@ What is bgen_parser
 
 bgen_parser is a simple, lightweight and (hopefully) efficient Python parser for the `BGEN format <https://www.well.ox.ac.uk/~gav/bgen_format/>`_. It is nothing more than a Python wrapper to the `bgenix C++ library of 
 Gavin Band <https://bitbucket.org/gavinband/bgen>`_.
-The main motivation for developing this package was that, at the time, I couldn't find a decent BGEN parser that would parse the `imputated genotypes of the UK Biobank <https://www.ukbiobank.ac.uk/scientists-3/genetic-data/>`_ in a reasonable time (it took them too long to initially load the data). I needed a parser that would work in real time.
+
+The main motivation for developing this package was that, at the time, I couldn't find a decent BGEN parser that would parse the `imputed genotypes of the UK Biobank <https://www.ukbiobank.ac.uk/scientists-3/genetic-data/>`_ in a reasonable time (it took them too long to initially load the data). I needed a parser that would work in real time.
 
 Usage
 ===============
