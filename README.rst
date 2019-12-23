@@ -69,4 +69,4 @@ Step 2: Install bgen_parser
 
 .. code-block:: cshell
 
-  pyhton setup.py install
+  python setup.py install
