@@ -70,3 +70,9 @@ Step 2: Install bgen_parser
 .. code-block:: cshell
 
   python setup.py install
+
+
+Cite us
+=======
+
+If you use bgen_parser as part of work contributing to a scientific publication, we ask that you cite our preprint: Nadav Brandes, Nathan Linial, Michal Linial, PWAS: Proteome-Wide Association Study, bioRxiv, https://doi.org/10.1101/812289
