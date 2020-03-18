@@ -51,10 +51,10 @@ To install bgenix at ~/third_party/bgenix, do the following:
     cd /tmp
     wget http://bitbucket.org/gavinband/bgen/get/master.tar.gz
     tar xvfz master.tar.gz
-    mv gavinband-bgen-456f4fcbc75c ~/third_party/bgenix
+    mv gavinband-bgen-44fcabbc5c38 ~/third_party/bgenix
     cd ~/third_party/bgenix
-    ./waf-1.8.13 configure
-    ./waf-1.8.13
+    ./waf configure
+    ./waf
     
 Step 2: Install bgen_parser
 -----------------
